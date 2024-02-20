@@ -1,4 +1,90 @@
-body{
-    font-size: 20px;
-    color: red;
+* {
+    padding: 0px;
+    margin: 0px;
+}
+h1 {
+    width: 940px;
+    height: 40px;
+    padding: 17px 250px; 
+}
+.TopPanel {
+    display: flex;
+    align-items: center;
+}
+.Escape {
+    font-family: "Lora";
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 26px;
+    text-align: left;
+}
+.listContainer {
+    text-align: center;
+    width: 376px;
+    height: 40px;
+    margin-left: 560px;
+    display: flex;
+    align-items: center;
+}
+.list {
+
+    display: inline;
+    list-style-type: none;
+    font-family: "Oxygen";
+    line-height: 20px;
+    letter-spacing: 0.6px;
+    font-size: 11px;
+    font-weight: 100;
+}
+li {
+    float: left;
+    padding: 0px 10px;    
+}
+p{
+    padding-bottom: 50px;
+}
+.BlogText {
+    margin: 275px 240px;
+    width: 960px;
+    height: 1431px;
+    font-family: "Oxygen";
+    font-weight: 200;
+    font-size: 24px;
+    line-height: 35px;
+}
+h3 {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+.polarBlind {
+    width: 1440px;
+    height: 534px;
+    background: url('polar.jpg') no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+.HeaderTitle {
+    margin: 89px 500px;
+    width: 504px;
+    height: 91px;
+    text-align: center;
+}
+.Title {
+    font-family: "Lora";
+    margin-bottom: 31px; 
+    line-height: 51px;
+    letter-spacing: 2px;
+    font-size: 50px;
+    font-weight: 100;
+}
+.SmallTitle {
+    font-family: "Oxygen";
+    line-height: 20px;
+    font-size: 17px;
+    color: rgba(46, 46, 46, 0.63);
 }
