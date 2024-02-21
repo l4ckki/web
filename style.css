@@ -7,9 +7,36 @@ h1 {
     height: 40px;
     padding: 17px 250px; 
 }
+h3 {
+    left: 0;
+    bottom: 0;
+    width: 960px;
+    height: 34px;
+    background: url('village.jpg');
+    background-position: 0px;
+    background-size: cover;
+    padding: 27.5px 240px; 
+}
+.Footer {
+    width: 960px;
+    height: 34px;
+    
+}
+.ButtomPanel {
+    display: flex;
+    align-items: center;
+}
 .TopPanel {
     display: flex;
     align-items: center;
+}
+.EscapeButtom {
+    font-family: "Lora";
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 26px;
+    text-align: left; 
+    color: rgb(255, 255, 255);    
 }
 .Escape {
     font-family: "Lora";
@@ -27,7 +54,24 @@ h1 {
     align-items: center;
 }
 .list {
-
+    display: inline;
+    list-style-type: none;
+    font-family: "Oxygen";
+    line-height: 20px;
+    letter-spacing: 0.6px;
+    font-size: 11px;
+    font-weight: 100;
+}
+.listContainerButtom {
+    text-align: center;
+    width: 376px;
+    height: 40px;
+    margin-left: 560px;
+    letter-spacing: 1px; 
+    display: flex;
+    align-items: center;
+}
+.listButtom {
     display: inline;
     list-style-type: none;
     font-family: "Oxygen";
@@ -40,6 +84,11 @@ li {
     float: left;
     padding: 0px 10px;    
 }
+.buttomUnit {
+    float: left;
+    padding: 0px 10px;
+    color: rgb(255, 255, 255);     
+}
 p{
     padding-bottom: 50px;
 }
@@ -51,15 +100,6 @@ p{
     font-weight: 200;
     font-size: 24px;
     line-height: 35px;
-}
-h3 {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: red;
-  color: white;
-  text-align: center;
 }
 .polarBlind {
     width: 1440px;
