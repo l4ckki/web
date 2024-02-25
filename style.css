@@ -4,8 +4,42 @@
     box-sizing: border-box;
 }
 
-main {
+.main {
     text-align: center;
-    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.text {
+    font-size: 24px;
+    line-height: 35px;
     color: rgb(2E, 2E, 2E);
+    font-family: "Oxygen";
+    margin-bottom: 100px;
+}
+.text .title {
+    font-size: 50px;
+    line-height: 51px;
+    letter-spacing: 2px;
+    font-family: "Lora";   
+}
+.text .subtitle {
+    opacity: 63%;
+    font-size: 17px;
+    line-height: 20px;
+}
+.text .main.text {
+    color: rgb(10, C, E);
+    text-align: start;
+    margin: 140px 240px 0px 240px;
+}
+.Polar.Lights {
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    height: 534px;
+    background-image: url("polar.jpg");
+    background-repeat: no-repeat;
+}
+.footer-container {
+    
 }
